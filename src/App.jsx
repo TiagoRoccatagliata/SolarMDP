@@ -1,14 +1,10 @@
-import Header from './Header.jsx'
-import Home from './Home.jsx'
-import ProductList from './ProductList.jsx'
-import ContactPage from './ContactPage.jsx'
+
+import { Navbar } from './componentes/Navbar/Navbar.jsx';
+
 function App() {
   return(
     <>
-    <Header/>
-    <Home/>
-    <ProductList/>
-    <ContactPage/>
+    <Navbar/>
     </> 
     
   );
