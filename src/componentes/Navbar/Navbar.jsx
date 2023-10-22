@@ -1,25 +1,42 @@
-// eslint-disable-next-line no-unused-vars
-import React, { useState } from 'react'
+import { Component } from "react"
 import './navbar.css'
 import logo from '../Assets/logo.png'
+import { MenuItems } from "./MenuItems";
+import { Link } from 'react-router-dom';
 
 
-export const Navbar = () => {
 
-    const [menu, setMenu] = useState("shop");
-
-  return (
-    <div className='navbar'>
-        <div className='nav-logo'>
+class Navbar extends Component {
+  state = { clicked: false};
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked })
+  }
+  render() {
+    return (
+      <nav className='navbar'>
+        <h1 className='nav-logo'>
             <img className='imagen' src={logo} alt="" />
-            <p>SOLAR MDP</p>
-        </div>
-        <ul className="nav-menu">
-            <li onClick={()=>{setMenu("inicio")}}>Inicio{menu==="inicio"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("productos")}}>Productos{menu==="productos"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("contacto")}}>Contacto{menu==="contacto"?<hr/>:<></>}</li>
+            <h1>SOLAR MDP</h1>
+            </h1>
 
-        </ul>
-    </div>
-  )
-}
+        <div className='menu-icons' onClick={this.handleClick}>
+          <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
+          
+        </div>
+        
+        <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
+          {MenuItems.map((item, index) =>{
+            return(
+              <li key={index}>
+              <Link className={item.cName} to={item.url}><i className={item.icon}></i>{item.title}</Link>
+              </li>
+            );
+          })}
+          </ul>
+          </nav>
+    );
+        }
+      }
+
+
+export default Navbar;
