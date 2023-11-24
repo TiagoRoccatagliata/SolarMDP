@@ -16,6 +16,7 @@ function Services() {
         tittle="Servicios"
         text="Tu Tienda online de productos sustentables."
         url="/"
+        
         />
         <Destination2/>
        

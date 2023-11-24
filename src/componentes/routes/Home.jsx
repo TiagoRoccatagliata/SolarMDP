@@ -15,7 +15,7 @@ function Home (){
         tittle="Bienvenido al ShowRoom de Solar MDP"
         text="Tu Tienda online de productos sustentables."
         buttonText="Comprar"
-        url="/"
+        url="https://api.whatsapp.com/send?phone=5492235697486&text="
         btnClass="show"
         />
         <Destination />

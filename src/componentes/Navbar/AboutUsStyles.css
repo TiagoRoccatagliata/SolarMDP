@@ -12,7 +12,24 @@
     padding-bottom: 2rem;
 }
 
-@media screen and (max-width:850px){
+
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .faq-column {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  
+
+
+
+   @media screen and (max-width:850px){
     .about-container{
         margin: 4rem 2rem;
     }

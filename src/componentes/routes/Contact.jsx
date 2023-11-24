@@ -11,7 +11,7 @@ function Contact (){
         <Hero
         cName="hero-mid"
         heroImg="src\componentes\Assets\362232026_704216638384635_4906389604703660220_n.jpg "
-        tittle="Contac"
+        tittle="Contaco"
         
       
         btnClass="hide"

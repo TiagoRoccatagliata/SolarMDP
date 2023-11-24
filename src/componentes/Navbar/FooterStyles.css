@@ -1,22 +1,56 @@
-.footer{
+.footer {
     padding: 4rem 6rem;
     background: #000;
     color: #fff;
-}
-.top{
+  }
+  
+  .brand {
+    font-family: 'Roboto', sans-serif; /* Reemplaza 'Roboto' con la fuente que desees */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .top {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-.top i{
+  }
+  
+  .top i {
     color: #fff;
     font-size: 2rem;
     margin-left: 1rem;
-}
-
-.top i:hover{
+  }
+  
+  .top i:hover {
     color: #01959a;
-}
-
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .contact-info,
+  .business-hours {
+    flex: 1;
+  }
+  
+  .contact-info h2,
+  .business-hours h2 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p,
+  .business-hours p {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  /* Add any additional styling as needed */
+  
