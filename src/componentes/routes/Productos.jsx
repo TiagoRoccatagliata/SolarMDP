@@ -1,9 +1,10 @@
 import Hero from "../Navbar/Hero";
 import Navbar from "../Navbar/Navbar"
 import Footer from "../Navbar/Footer";
-import Trip from "../Navbar/Trip";
 
-function Service (){
+import Trip2 from "../Navbar/Trip2"
+
+function Productos (){
     return(
         <>
         <Navbar />  
@@ -15,11 +16,12 @@ function Service (){
       
         btnClass="hide"
         />
-        <Trip />
+        
+        <Trip2 />
         <Footer/>
         </>
     )
 }
 
 
-export default Service
+export default Productos

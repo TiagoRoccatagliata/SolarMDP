@@ -15,6 +15,12 @@
     z-index: 9999;
     
 }
+h1 {
+    overflow: hidden;  /* Oculta cualquier contenido que desborde del contenedor */
+    white-space: nowrap;  /* Impide que el texto se divida en varias líneas */
+    text-overflow: ellipsis;  /* Muestra puntos suspensivos (...) cuando el texto desborda */
+  }
+  
 
 .nav-logo {
     display: flex;

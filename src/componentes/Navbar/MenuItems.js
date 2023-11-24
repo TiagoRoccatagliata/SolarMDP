@@ -13,7 +13,7 @@ export const MenuItems = [
     },
     {
         title : "Productos",
-        url : "/service",
+        url : "/productos",
         cName : "nav-links",
         icon : "fa-solid fa-briefcase"
     },
@@ -22,6 +22,14 @@ export const MenuItems = [
         url : "/contact",
         cName : "nav-links",
         icon : "fa-solid fa-address-book"
-    }
+    },
 
+    {
+      title: "Servicios",
+      url: "/services", // Asegúrate de que coincida con la ruta en App.jsx
+      cName: "nav-links",
+      icon: "fa-solid fa-tools", // Puedes cambiar el icono según tus necesidades
+    },
+  
+  
 ]

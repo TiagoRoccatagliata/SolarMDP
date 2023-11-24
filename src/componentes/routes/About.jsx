@@ -2,6 +2,7 @@ import Hero from "../Navbar/Hero";
 import Navbar from "../Navbar/Navbar"
 import Footer from "../Navbar/Footer";
 import AboutUS from "../Navbar/AboutUs";
+import Preguntas from "../Navbar/Preguntas"
 
 
 
@@ -18,6 +19,7 @@ function About (){
         btnClass="hide"
         />
         <AboutUS />
+        <Preguntas/>
         <Footer/>
         </>
     )

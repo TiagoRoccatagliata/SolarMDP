@@ -26,8 +26,11 @@ function Trip(){
                                
                 />
             </div>
+
         </div>
+        
     )
 }
+
 
 export default Trip

@@ -1,4 +1,4 @@
-.destination{
+.destination {
     margin: 4rem 6rem;
 
 }
@@ -59,6 +59,42 @@
     right: 0;
 
 }
+
+.destination2 {
+    margin: 4rem 6rem;
+
+    
+    padding: 25px; /* Ajusta el espaciado interno según sea necesario */
+  }
+  
+  .content-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+  }
+  
+  .image-container {
+    flex: 0.5;
+    margin-right: 20px; /* Ajusta el margen entre la imagen y el texto según sea necesario */
+  }
+  
+  .image-container img {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    border-radius: 8px; /* Añade bordes redondeados a la imagen */
+  }
+  
+  .text-container {
+    flex: 2;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 10px; /* Ajusta el margen inferior del título según sea necesario */
+  }
+  
+  .section-text {
+    line-height: 1.5; /* Ajusta la altura de línea según sea necesario */
+  }
+  
 
 @media screen and (max-width: 850px) {
     .destination{
