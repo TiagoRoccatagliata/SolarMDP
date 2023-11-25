@@ -1,4 +1,4 @@
-import "./index.css";
+import './index.css';
 
 import { Route, Routes } from "react-router-dom";
 import Home from "./componentes/routes/Home";
